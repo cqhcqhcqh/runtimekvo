@@ -14,6 +14,8 @@
 		635C789127CC71DA00FB51BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 635C789027CC71DA00FB51BA /* Assets.xcassets */; };
 		635C789427CC71DA00FB51BA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 635C789227CC71DA00FB51BA /* LaunchScreen.storyboard */; };
 		635C789727CC71DA00FB51BA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 635C789627CC71DA00FB51BA /* main.m */; };
+		635C789F27CC71E500FB51BA /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 635C789E27CC71E500FB51BA /* Person.m */; };
+		635C78A227CC79CA00FB51BA /* NSObject+_KVO.m in Sources */ = {isa = PBXBuildFile; fileRef = 635C78A127CC79CA00FB51BA /* NSObject+_KVO.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +31,10 @@
 		635C789327CC71DA00FB51BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		635C789527CC71DA00FB51BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		635C789627CC71DA00FB51BA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		635C789D27CC71E500FB51BA /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		635C789E27CC71E500FB51BA /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		635C78A027CC79CA00FB51BA /* NSObject+_KVO.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+_KVO.h"; sourceTree = "<group>"; };
+		635C78A127CC79CA00FB51BA /* NSObject+_KVO.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+_KVO.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +73,10 @@
 				635C788827CC71D800FB51BA /* SceneDelegate.m */,
 				635C788A27CC71D800FB51BA /* ViewController.h */,
 				635C788B27CC71D800FB51BA /* ViewController.m */,
+				635C78A027CC79CA00FB51BA /* NSObject+_KVO.h */,
+				635C78A127CC79CA00FB51BA /* NSObject+_KVO.m */,
+				635C789D27CC71E500FB51BA /* Person.h */,
+				635C789E27CC71E500FB51BA /* Person.m */,
 				635C788D27CC71D800FB51BA /* Main.storyboard */,
 				635C789027CC71DA00FB51BA /* Assets.xcassets */,
 				635C789227CC71DA00FB51BA /* LaunchScreen.storyboard */,
@@ -148,7 +158,9 @@
 			files = (
 				635C788C27CC71D800FB51BA /* ViewController.m in Sources */,
 				635C788627CC71D800FB51BA /* AppDelegate.m in Sources */,
+				635C789F27CC71E500FB51BA /* Person.m in Sources */,
 				635C789727CC71DA00FB51BA /* main.m in Sources */,
+				635C78A227CC79CA00FB51BA /* NSObject+_KVO.m in Sources */,
 				635C788927CC71D800FB51BA /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -226,7 +238,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -279,7 +291,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
